@@ -1,7 +1,32 @@
-body{
-    background-image: url(../assets/Images/Bg_Cover/blue.jpg);
-    background-position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url(../assets/Images/Bg_Cover/blue.jpg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
+
+
+
+.wrapper {
+  border: 2px solid rgb(149, 0, 255);
+}
+
+.containerSkill {
+  background-color: pink;
+}
+
+.barCompleted {
+  background-color: #EAA31C;
+  /* width: 90%;
+  margin-bottom: 4px; */
+}
+
+.label {
+  font-size: 20px;
+  color: green;
+}
+
+.grad {
+  background-image: linear-gradient(to right, red , yellow);
 }

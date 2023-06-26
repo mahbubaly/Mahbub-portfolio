@@ -30,7 +30,7 @@ const Navbar = () => {
                 : isActive
                     ? "text-yellow-600 underline font-semibold  "
                     : " hover:text-yellow-600 text-yellow-500    font-semibold"
-        } to='/education'><li>Education</li></NavLink>
+        } to='/skill'><li>My Skills</li></NavLink>
         <NavLink className={({ isActive, isPending }) =>
 
             isPending
@@ -38,7 +38,7 @@ const Navbar = () => {
                 : isActive
                     ? "text-yellow-600 underline font-semibold"
                     : " hover:text-yellow-600 text-yellow-500   font-semibold"
-        } to='/accomplishments'><li>Accomplishments</li></NavLink>
+        } to='/works'><li>My Works</li></NavLink>
         <NavLink className={({ isActive, isPending }) =>
 
             isPending
@@ -58,7 +58,7 @@ const Navbar = () => {
                     ? "text-yellow-600 underline font-semibold"
                     : " hover:text-yellow-600 text-yellow-500    font-semibold"
         } to='/projects'>
-            <li>My projects</li>
+            <li>Hired Me</li>
         </NavLink>
 
 
