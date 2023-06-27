@@ -27,15 +27,14 @@ const Navbar = () => {
 
         </Link>
 
-
         <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
             color: 'white',
-            borderBottom: ' 4px solid red',
+            borderBottom: '4px solid red',
 
         }} to='skill' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
-                <FaHome className='text-black' />
-                <li >Skills   </li>
+                <FaPodcast lassName='text-black w-10 h-6' />
+                <li >Skills</li>
             </div>
 
         </Link>
@@ -45,7 +44,7 @@ const Navbar = () => {
             color: 'white',
             borderBottom: '4px solid red',
 
-        }} to='portfolio' spy={true} smooth={true} offset={50} duration={500}   >
+        }} to='projects' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaPodcast lassName='text-black w-10 h-6' />
                 <li >Projects</li>
@@ -63,7 +62,7 @@ const Navbar = () => {
         }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaPhoenixFramework className='text-black w-8 h-6' />
-                <li >Contact   </li>
+                <li >Contact </li>
             </div>
 
         </Link>
@@ -72,7 +71,7 @@ const Navbar = () => {
             color: 'white',
             borderBottom: ' 4px solid red',
             // textDecoration: 'underline'
-        }} to='hired' spy={true} smooth={true} offset={50} duration={500}   >
+        }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaMale lassName='text-black w-8 h-6' />
                 <li >Hired</li>

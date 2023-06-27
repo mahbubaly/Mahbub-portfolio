@@ -11,9 +11,10 @@ import Hired from '../Hired/Hired';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import { FaFacebook, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter } from 'react-icons/fa';
-import {  TbBrandFiverr } from 'react-icons/Tb';
+import { TbBrandFiverr } from 'react-icons/Tb';
 import { BsWhatsapp } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import { Helmet } from 'react-helmet-async';
 // ..
 AOS.init();
 
@@ -28,6 +29,10 @@ const Home = () => {
     })
     return (
         <>
+
+            <Helmet>
+                <title> Mahbubu portfolio | home</title>
+            </Helmet>
             <div id='/' className='container mx-auto grid lg:grid-cols-2 grid-cols-1 justify-center p-6 gap-8 items-center pt-10'>
                 <div data-aos="zoom-in-right"
 
@@ -77,7 +82,7 @@ const Home = () => {
                         <div className='text-primary   col-span-4 ml-10 lg:ml-20 gap-5 flex flex-col'>
 
 
-                           
+
                             <a href="https://github.com/mahbubaly" target="_blank" rel="noreferrer" className="p-3 rounded-full lg:mt-16"><FaGithub className='w-10 h-10 ' />GitHub </a>
                             <a href="https://www.linkedin.com/in/mahbubur-rahman-2a3a7b248/" target="_blank" rel="noreferrer" className="p-3 rounded-full"><FaLinkedin className='w-10 h-10 my-1' />Linkedin </a>
 
@@ -92,7 +97,7 @@ const Home = () => {
 
 
 
-                           
+
 
 
                         </div>

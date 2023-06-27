@@ -2,8 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import { FaFacebook, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter } from 'react-icons/fa';
-import {  TbBrandFiverr } from 'react-icons/Tb';
+import { TbBrandFiverr } from 'react-icons/Tb';
 import { BsWhatsapp } from 'react-icons/bs';
+import { Helmet } from 'react-helmet-async';
 
 
 const Contact = () => {
@@ -34,14 +35,21 @@ const Contact = () => {
 
     return (
         <>
+
+            <Helmet>
+                <title> Mahbubu portfolio | Contact</title>
+            </Helmet>
             <div id='contact' className='container mx-auto my-32'>
 
-                <h1 className='border-b-4 border-purple-700 w-[20%] text-center mx-auto my-10 text-2xl p-4 text-yellow-400 font-bold'> Contact Me  </h1>
+                <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[50%] text-center mx-auto my-10 text-2xl p-4 text-yellow-400 font-bold'> Contact Me  </h1>
 
 
-                <div className='grid grid-cols-2 gap-7 '>
+                <div className='grid lg:grid-cols-2 grid-cols-1 gap-7 '>
 
-                    <div className="text-primary p-9 flex justify-around">
+                    <div data-aos="fade-down"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" className="text-primary p-9 flex  justify-around">
 
                         <div>
                             <a href="https://www.facebook.com/mahbubali72" target="_blank" rel="noreferrer" className="p-3 rounded-full "> <FaFacebook className='w-10 h-10 mb-2' />Facebook </a>
@@ -58,7 +66,9 @@ const Contact = () => {
                     </div>
 
 
-                    <div className=" p-[0px] border-none" data-aos="fade-up" id="contact">
+                    <div className=" p-[0px] border-none" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" >
                         <div className="wrapper flex flex-col p-5 md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
                                 <input required type="text" name='user_name' className="input text-white " placeholder="Enter your name here" />

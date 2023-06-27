@@ -1,20 +1,21 @@
 import ProgressBar from '@ramonak/react-progress-bar';
 import React from 'react';
 import '../../Pages/Style.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+import { Helmet } from 'react-helmet-async';
+
 
 
 const Skills = () => {
     return (
         <>
-
+            <Helmet>
+                <title> Mahbubu portfolio | Skills</title>
+            </Helmet>
 
 
             <div className="lg:mb-20 container mx-auto" id='skill'>
                 <div className="py-10 text-center uppercase ">
-                    <a className="font-bold lg:text-2xl text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Skills</span></a>
+                    <a className="font-bold lg:text-2xl pb-2 text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Skills</span></a>
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 px-5 gap-7 mb-5 uppercase">
 
