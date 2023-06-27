@@ -31,7 +31,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={85}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -42,7 +42,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={80}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -53,7 +53,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={70}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -64,7 +64,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={80}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -75,7 +75,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={80}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -86,7 +86,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={60}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -97,7 +97,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={75}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -108,7 +108,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={85}
                                 bgColor='#EAA31C'
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -120,7 +120,7 @@ const Skills = () => {
                                 completed={70}
                                 bgColor='#EAA31C'
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -144,7 +144,7 @@ const Skills = () => {
                                 completed={75}
 
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -155,7 +155,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={65}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -166,7 +166,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={70}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -177,7 +177,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={50}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -188,7 +188,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={40}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -201,7 +201,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={75}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -212,7 +212,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={70}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 
@@ -223,7 +223,7 @@ const Skills = () => {
                             <ProgressBar className=''
                                 completed={50}
 
-                                transitionDuration='3s'
+                                transitionDuration='6s'
                                 transitionTimingFunction='ease-in-out'
                                 animateOnRender={true}
 

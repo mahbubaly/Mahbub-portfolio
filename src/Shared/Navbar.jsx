@@ -67,11 +67,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
-            color: 'white',
-            borderBottom: ' 4px solid red',
-            // textDecoration: 'underline'
-        }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
+        <Link  className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold'  to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaMale lassName='text-black w-8 h-6' />
                 <li >Hired</li>
