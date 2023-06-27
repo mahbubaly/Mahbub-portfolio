@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import sun from '../assets/Images/Themes/sun.jpg';
-import moon from '../assets/Images/Themes/mode_dark_icon.png';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import {  FaHome, FaMale, FaPhoenixFramework, FaPodcast,} from 'react-icons/fa';
+
+
 
 
 
@@ -11,55 +13,74 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <NavLink className={({ isActive, isPending }) =>
+        <Link activeClass='active' className=' rounded-2xl  bg-gradient-to-r from-yellow-500 to-purple-600   text-lg text-black  font-semibold' activeStyle={{
+            color: 'white',
 
-            isPending
-                ? ""
-                : isActive
-                    ? "text-yellow-600 underline font-semibold"
-                    : " hover:text-yellow-600  text-yellow-500   font-semibold"
-        } to='/'><li>Home</li></NavLink>
+            borderBottom: ' 4px solid red',
+            // textDecoration: 'underline'
+        }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+                <FaHome className='text-black' />
+                <li >Home   </li>
+            </div>
+
+        </Link>
+
+
+        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+            color: 'white',
+            borderBottom: ' 4px solid red',
+
+        }} to='skill' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+                <FaHome className='text-black' />
+                <li >Skills   </li>
+            </div>
+
+        </Link>
+
+
+        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+            color: 'white',
+            borderBottom: '4px solid red',
+
+        }} to='portfolio' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+                <FaPodcast lassName='text-black w-10 h-6' />
+                <li >My Works</li>
+            </div>
+
+        </Link>
 
 
 
 
-        <NavLink className={({ isActive, isPending }) =>
+        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+            color: 'white',
+            borderBottom: ' 4px solid red',
+            // textDecoration: 'underline'
+        }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+                <FaPhoenixFramework className='text-black w-8 h-6' />
+                <li >Contact   </li>
+            </div>
 
-            isPending
-                ? ""
-                : isActive
-                    ? "text-yellow-600 underline font-semibold  "
-                    : " hover:text-yellow-600 text-yellow-500    font-semibold"
-        } to='/skill'><li>My Skills</li></NavLink>
-        <NavLink className={({ isActive, isPending }) =>
+        </Link>
 
-            isPending
-                ? ""
-                : isActive
-                    ? "text-yellow-600 underline font-semibold"
-                    : " hover:text-yellow-600 text-yellow-500   font-semibold"
-        } to='/works'><li>My Works</li></NavLink>
-        <NavLink className={({ isActive, isPending }) =>
+        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+            color: 'white',
+            borderBottom: ' 4px solid red',
+            // textDecoration: 'underline'
+        }} to='hired' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+                <FaMale lassName='text-black w-8 h-6' />
+                <li >Hired</li>
+            </div>
 
-            isPending
-                ? ""
-                : isActive
-                    ? "text-yellow-600 underline font-semibold"
-                    : " hover:text-yellow-600  text-yellow-500  font-semibold"
-        } to='/contact'>
-            <li>Contact</li>
-        </NavLink>
+        </Link>
 
-        <NavLink className={({ isActive, isPending }) =>
 
-            isPending
-                ? ""
-                : isActive
-                    ? "text-yellow-600 underline font-semibold"
-                    : " hover:text-yellow-600 text-yellow-500    font-semibold"
-        } to='/projects'>
-            <li>Hired Me</li>
-        </NavLink>
+
 
 
 
@@ -68,11 +89,13 @@ const Navbar = () => {
 
 
 
+
+
     return (
         <>
 
 
-            <div className="navbar  shadow-2xl lg:p-4">
+            <div className="navbar z-10 fixed bg-opacity-70 bg-black text-white   lg:p-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -85,7 +108,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='lg:ml-0 ml-[100%]'>
-                        <Link to='/'> <a className="   w-full  font-bold lg:text-2xl text-white"> Mahbubur <span className='text-yellow-500 italic'>Rahman</span></a></Link>
+                        <Link to='/'> <a className="   w-full  font-bold lg:text-2xl text-xl  text-white"> Mahbubur <span className='text-yellow-500 italic'>Rahman</span></a></Link>
                     </div>
                 </div>
 

@@ -7,7 +7,7 @@ AOS.init();
 const About = () => {
     return (
         <>
-            <div data-aos="fade-up"
+            <div className='container mx-auto' data-aos="fade-up"
 
                 data-aos-delay="50"
                 data-aos-duration="1000"

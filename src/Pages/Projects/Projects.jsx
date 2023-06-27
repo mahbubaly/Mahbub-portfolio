@@ -2,9 +2,81 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div>
-            sdfkhas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repudiandae sequi unde, illo quae provident dolorum, autem repellat maxime sapiente veniam iure molestias nobis, harum sint soluta dignissimos libero et id rem sunt sit ad. Iste mollitia aut fugit deleniti dolore est numquam. Veritatis, eveniet natus! Doloribus asperiores quis accusantium explicabo voluptates, ab voluptatem, quae tempora eos sunt placeat illo laborum esse odit perspiciatis rem inventore officiis. Pariatur voluptatem obcaecati mollitia magni corporis sit accusamus eos temporibus exercitationem eius natus modi saepe doloribus, hic deleniti! Quasi atque ad exercitationem tempore!
-        </div>
+        <>
+            <div id='portfolio' className='container mx-auto mt-10'>
+                <div  className='text-center text-2xl  font-semibold my-10 text-white'>
+                    <h1 className='border-b-4 border-purple-700 w-[25%] mx-auto'>Here my latest <span className='text-primary '>few projects</span> </h1>
+
+                    <div className='grid lg:grid-cols-3 grid-cols-2 my-10'>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='grid lg:grid-cols-3 grid-cols-2 '>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Shoes!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <div className="card-actions justify-end">
+                                    <button className="btn btn-primary">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </>
     );
 };
 

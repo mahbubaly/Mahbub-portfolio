@@ -2,17 +2,17 @@ import ProgressBar from '@ramonak/react-progress-bar';
 import React from 'react';
 import '../../Pages/Style.css';
 
-const Education = () => {
+const Skills = () => {
     return (
         <>
 
 
 
-            <div className="pb-5">
-                <div className="py-10 text-center ">
+            <div className="lg:mb-20 container mx-auto" id='skill'>
+                <div className="py-10 text-center uppercase ">
                     <a className="font-bold lg:text-2xl text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Skills</span></a>
                 </div>
-                <div className="grid lg:grid-cols-2 grid-cols-1 px-5 gap-7 mb-5">
+                <div className="grid lg:grid-cols-2 grid-cols-1 px-5 gap-7 mb-5 uppercase">
                     <div>
                         <h1 className="text-2xl text-primary text-center underline ">Front-End</h1>
                         <div>
@@ -225,4 +225,4 @@ const Education = () => {
     );
 };
 
-export default Education;
+export default Skills;

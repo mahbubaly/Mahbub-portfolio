@@ -28,5 +28,10 @@ body {
 }
 
 .grad {
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+.activeClass {
+  color: #EAA31C;
+  
 }
