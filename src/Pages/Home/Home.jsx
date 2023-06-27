@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import img from '../../assets/Images/mahbub/mahbub-pro-pic.jpg'
 import resume from '../../assets/Images/mahbub/Resume of Mahbub.pdf'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
@@ -11,6 +11,7 @@ import Hired from '../Hired/Hired';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import { Fa500Px, FaFacebook, FaGit, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 // ..
 AOS.init();
 
@@ -45,7 +46,7 @@ const Home = () => {
 
 
                         <div className='gap-6 flex'>
-                            <Link to='/contact'>    <button className='btn btn-outline text-white hover:bg-white hover:text-yellow-600 bg-yellow-600 border-dashed '>Get In touch</button></Link>
+                            <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>    <button className='btn btn-outline text-white hover:bg-white hover:text-yellow-600 bg-yellow-600 border-dashed '>Get In touch</button></Link>
 
 
                             <button className='btn btn-outline  hover:border-none text-white hover:bg-yellow-700 duration-700 '><a href={resume} download>Download Resume</a>
@@ -56,15 +57,15 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <div className='grid grid-cols-12 gap-6 justify-center items-center'>
+                    <div data-aos="zoom-in-left"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" className='grid grid-cols-12 gap-6 justify-center items-center'>
                         <div className='col-span-8'>
                             <abbr title="I am Mahbub , Current age 21!!">
 
-                                <img data-aos="zoom-in-left"
-
-                                    data-aos-delay="50"
-                                    data-aos-duration="1000"
-                                    data-aos-easing="ease-in-out"
+                                <img
                                     className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-yellow-500 
                                     hover:shadow-red-400  box-border h-[400px] justify-center rounded-[50%]' src={img} alt="This is mahbub " />
                             </abbr>

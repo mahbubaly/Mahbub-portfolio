@@ -1,6 +1,10 @@
 import ProgressBar from '@ramonak/react-progress-bar';
 import React from 'react';
 import '../../Pages/Style.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 
 const Skills = () => {
     return (
@@ -13,7 +17,13 @@ const Skills = () => {
                     <a className="font-bold lg:text-2xl text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Skills</span></a>
                 </div>
                 <div className="grid lg:grid-cols-2 grid-cols-1 px-5 gap-7 mb-5 uppercase">
-                    <div>
+
+                    {/* Frontend */}
+                    <div data-aos="fade-right"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         <h1 className="text-2xl text-primary text-center underline ">Front-End</h1>
                         <div>
                             <h1 className="text-xl font-semibold text-white mb-1">Html 5</h1>
@@ -121,7 +131,11 @@ const Skills = () => {
 
                     {/* Back end  */}
 
-                    <div>
+                    <div data-aos="fade-left"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         <h1 className="text-2xl text-white text-center underline ">BACKEND</h1>
                         <div>
                             <h1 className="text-xl font-semibold text-white mb-1">Express</h1>
