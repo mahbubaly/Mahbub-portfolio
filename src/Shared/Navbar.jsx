@@ -9,6 +9,7 @@ import {  FaHome, FaMale, FaPhoenixFramework, FaPodcast,} from 'react-icons/fa';
 
 
 
+
 const Navbar = () => {
 
     const navbar = <>
@@ -47,7 +48,7 @@ const Navbar = () => {
         }} to='portfolio' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaPodcast lassName='text-black w-10 h-6' />
-                <li >My Works</li>
+                <li >Projects</li>
             </div>
 
         </Link>

@@ -1,80 +1,48 @@
 import React from 'react';
+import img1 from '../../assets/Images/Projects/A12.png'
+import img2 from '../../assets/Images/Projects/a11.png'
+import img3 from '../../assets/Images/Projects/a10.png'
+import img4 from '../../assets/Images/Projects/food.png'
+import img5 from '../../assets/Images/Projects/appliedJon.png'
+import img6 from '../../assets/Images/Projects/127.0.0.1_5500_index.html.png'
+import '../../Pages/Style.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { Tilt } from 'react-tilt';
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Projects = () => {
+
+    const projects = [
+        {
+            image: img1,
+            link: 'https://sci-fi-toys.web.app/'
+        },
+        {
+            image: img2,
+            link: 'https://foreign-language-camping.web.app/'
+        },
+        {
+            image: img3,
+            link: 'https://job-hunter-app.netlify.app/'
+        },
+        {
+            image: img4,
+            link: 'https://chef-hunter-5ddb4.web.app/'
+        },
+        {
+            image: img5,
+            link: 'https://nmcsakib.netlify.app/'
+        },
+        {
+            image: img6,
+            link: 'https://list-of-ai.netlify.app/'
+        },
+    ]
     return (
         <>
-            <div id='portfolio' className='container mx-auto mt-10'>
-                <div  className='text-center text-2xl  font-semibold my-10 text-white'>
-                    <h1 className='border-b-4 border-purple-700 w-[25%] mx-auto'>Here my latest <span className='text-primary '>few projects</span> </h1>
-
-                    <div className='grid lg:grid-cols-3 grid-cols-1 my-10 gap-8'>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-8'>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div id='portfolio' className=' mx-auto mt-10'>
+               
             </div>
         </>
     );

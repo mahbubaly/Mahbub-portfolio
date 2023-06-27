@@ -10,7 +10,9 @@ import Contact from '../Contact/Contact';
 import Hired from '../Hired/Hired';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
-import { Fa500Px, FaFacebook, FaGit, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter } from 'react-icons/fa';
+import {  TbBrandFiverr } from 'react-icons/Tb';
+import { BsWhatsapp } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 // ..
 AOS.init();
@@ -72,28 +74,25 @@ const Home = () => {
                         </div>
 
 
-                        <div className='text-white  col-span-4 ml-10 lg:ml-20 gap-5 flex flex-col'>
+                        <div className='text-primary   col-span-4 ml-10 lg:ml-20 gap-5 flex flex-col'>
 
-                            <a className='hover:underline' href="https://github.com/mahbubaly">
-                                <div className='hover:shadow-2xl items-center hover:shadow-black flex'>
-                                    <h1 className='inline'>GitHub  </h1>
-                                    <FaGithub className='w-20 h-8' />
-                                </div>
+
+                           
+                            <a href="https://github.com/mahbubaly" target="_blank" rel="noreferrer" className="p-3 rounded-full lg:mt-16"><FaGithub className='w-10 h-10 ' />GitHub </a>
+                            <a href="https://www.linkedin.com/in/mahbubur-rahman-2a3a7b248/" target="_blank" rel="noreferrer" className="p-3 rounded-full"><FaLinkedin className='w-10 h-10 my-1' />Linkedin </a>
+
+                            <a href="https://stackoverflow.com/users/22107589/mahbubur-rahman" target="_blank" rel="noreferrer" className="p-3 rounded-full ">
+                                <FaStackOverflow className='w-10 h-10 my-1' />StackOverflow
+                            </a>
+                            <a href="https://www.fiverr.com/mahbubalikhan10?up_rollout=true" target="_blank" rel="noreferrer" className="p-3 rounded-full">
+                                <TbBrandFiverr className='w-10 h-10 my-1' />Fiverr
+                            </a>
+                            <a href="https://wa.link/0owvkh" target="_blank" rel="noreferrer" className="p-3 rounded-full"><BsWhatsapp className='w-10 h-10 my-1' />Whatsapp
                             </a>
 
-                            <a className='hover:underline' href="https://www.linkedin.com/in/mahbubur-rahman-2a3a7b248/">
-                                <div className='hover:shadow-2xl items-center hover:shadow-black flex'>
-                                    <h1 className='inline'>LinkedIn</h1>
-                                    <FaLinkedin className='w-20 h-8' />
-                                </div>
-                            </a>
 
-                            <a className='hover:underline' href="https://www.facebook.com/mahbubali72">
-                                <div className='hover:shadow-2xl gap-2 items-center hover:shadow-black flex'>
-                                    <h1 className='inline'>Facebook</h1>
-                                    <FaFacebook className='w-20 h-8' />
-                                </div>
-                            </a>
+
+                           
 
 
                         </div>
