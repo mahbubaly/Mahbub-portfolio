@@ -7,7 +7,7 @@ const Projects = () => {
                 <div  className='text-center text-2xl  font-semibold my-10 text-white'>
                     <h1 className='border-b-4 border-purple-700 w-[25%] mx-auto'>Here my latest <span className='text-primary '>few projects</span> </h1>
 
-                    <div className='grid lg:grid-cols-3 grid-cols-2 my-10'>
+                    <div className='grid lg:grid-cols-3 grid-cols-1 my-10 gap-8'>
                         <div className="card card-compact w-96 bg-base-100 shadow-xl">
                             <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                             <div className="card-body">
@@ -41,7 +41,7 @@ const Projects = () => {
 
                     </div>
 
-                    <div className='grid lg:grid-cols-3 grid-cols-2 '>
+                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-8'>
                         <div className="card card-compact w-96 bg-base-100 shadow-xl">
                             <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                             <div className="card-body">
