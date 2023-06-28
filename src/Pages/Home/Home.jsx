@@ -68,8 +68,8 @@ const Home = () => {
 
                         data-aos-delay="50"
                         data-aos-duration="1000"
-                        data-aos-easing="ease-in-out" className='grid grid-cols-12 gap-6 justify-center items-center'>
-                        <div className='col-span-8'>
+                        data-aos-easing="ease-in-out" className='lg:grid grid-cols-12 gap-6 justify-center items-center'>
+                        <div className='col-span-8 flex justify-center'>
                             <abbr title="I am Mahbub , Current age 21!!">
 
                                 <img
@@ -79,7 +79,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className='text-primary   col-span-4 ml-10 lg:ml-20 gap-5 flex flex-col'>
+                        <div className='text-primary  col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap lg:ml-20 gap-5 flex lg:flex-col'>
 
 
 
