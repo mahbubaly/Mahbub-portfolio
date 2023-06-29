@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
-import {  FaHome, FaMale, FaPhoenixFramework, FaPodcast,} from 'react-icons/fa';
+import { FaHome, FaMale, FaPhoenixFramework, FaPodcast, } from 'react-icons/fa';
 
 
 
@@ -14,20 +14,19 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link activeClass='active' className=' rounded-2xl  bg-gradient-to-r from-yellow-500 to-purple-600   text-lg text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
             color: 'white',
+            borderBottom: '4px solid red',
 
-            borderBottom: ' 4px solid red',
-            // textDecoration: 'underline'
         }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
-                <FaHome className='text-black' />
-                <li >Home   </li>
+                <FaHome lassName='text-black w-10 h-6' />
+                <li >Home</li>
             </div>
 
         </Link>
 
-        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
             color: 'white',
             borderBottom: '4px solid red',
 
@@ -40,7 +39,7 @@ const Navbar = () => {
         </Link>
 
 
-        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className='rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
             color: 'white',
             borderBottom: '4px solid red',
 
@@ -55,7 +54,7 @@ const Navbar = () => {
 
 
 
-        <Link activeClass='active' className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl  text-black  font-semibold' activeStyle={{
             color: 'white',
             borderBottom: ' 4px solid red',
             // textDecoration: 'underline'
@@ -67,7 +66,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link  className=' rounded-2xl bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg text-black  font-semibold'  to='contact' spy={true} smooth={true} offset={50} duration={500}   >
+        <Link className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl  text-black  font-semibold' to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaMale lassName='text-black w-8 h-6' />
                 <li >Hired</li>
@@ -91,7 +90,7 @@ const Navbar = () => {
         <>
 
 
-            <div className="navbar z-10 fixed bg-opacity-70 bg-black text-white   lg:p-4">
+            <div className="navbar z-10 fixed bg-opacity-70  text-white  xl:p-6 lg:p-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -104,7 +103,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='lg:ml-0 ml-[100%]'>
-                        <Link to='/'> <a className="   w-full  font-bold lg:text-2xl text-xl  text-white"> Mahbubur <span className='text-yellow-500 italic'>Rahman</span></a></Link>
+                        <Link to='/'> <a className="   w-full  font-bold lg:text-2xl xl:text-3xl 2xl:text-5xl text-xl  text-white"> Mahbubur <span className='text-yellow-500 italic'>Rahman</span></a></Link>
                     </div>
                 </div>
 
@@ -120,6 +119,8 @@ const Navbar = () => {
 
 
             </div>
+
+
 
 
 

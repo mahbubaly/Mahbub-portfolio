@@ -41,7 +41,7 @@ const Contact = () => {
             </Helmet>
             <div id='contact' className='container mx-auto my-32'>
 
-                <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[50%] text-center mx-auto my-10 text-2xl p-4 text-yellow-400 font-bold'> Contact Me  </h1>
+                <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[50%] text-center mx-auto my-10 text-2xl p-4 text-white font-bold'> Contact Me  </h1>
 
 
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-7 '>
@@ -49,7 +49,7 @@ const Contact = () => {
                     <div data-aos="fade-down"
                         data-aos-delay="50"
                         data-aos-duration="1000"
-                        data-aos-easing="ease-in-out" className="text-primary p-9 flex  justify-around">
+                        data-aos-easing="ease-in-out" className="text-white p-9 flex  justify-around">
 
                         <div>
                             <a href="https://www.facebook.com/mahbubali72" target="_blank" rel="noreferrer" className="p-3 rounded-full "> <FaFacebook className='w-10 h-10 mb-2' />Facebook </a>
@@ -66,16 +66,21 @@ const Contact = () => {
                     </div>
 
 
-                    <div className=" p-[0px] border-none" data-aos="fade-up" data-aos-delay="50"
+                    <div className=" p-5 lg:w-full w-96 mx-auto border-none"
+                        data-aos="fade-up" data-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out" >
+
                         <div className="wrapper flex flex-col p-5 md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
                                 <input required type="text" name='user_name' className="input text-white " placeholder="Enter your name here" />
                                 <input required type="email" name='user_email' className="input my-5 text-white outline-none" placeholder="Enter your email here" />
                                 <input required type="text" name='user_phone' className="input mb-5 text-[#ffffff73] outline-none" placeholder="Enter your phone number" />
 
-                                <textarea name="message" cols="30" rows="8" className="input outline-none" placeholder="Write details here"></textarea>
+                                <textarea name="message" cols="30" rows="8" className="input " placeholder="Write details here">
+
+                                </textarea>
+
                                 <button className="px-3 btn bg-gradient-to-r from-yellow-500 to-purple-600 border-none hover:shadow-2xl active:bg-[#ffffff73] py-2 w-24 text-white  rounded-lg mt-4">Send</button>
                             </form>
 
@@ -90,6 +95,9 @@ const Contact = () => {
 
 
                 </div>
+
+
+                
             </div>
         </>
     );

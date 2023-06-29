@@ -73,13 +73,13 @@ const Home = () => {
                             <abbr title="I am Mahbub , Current age 21!!">
 
                                 <img
-                                    className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-yellow-500 
-                                    hover:shadow-red-400  box-border h-[400px] justify-center rounded-[50%]' src={img} alt="This is mahbub " />
+                                    className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-white 
+                                     box-border h-[400px] justify-center rounded-[50%]' src={img} alt="This is mahbub " />
                             </abbr>
                         </div>
 
 
-                        <div className='text-primary  col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap lg:ml-20 gap-5 flex lg:flex-col'>
+                        <div className=' text-white col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap lg:ml-20 gap-5 flex lg:flex-col'>
 
 
 

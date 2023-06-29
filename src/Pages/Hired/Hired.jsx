@@ -4,7 +4,7 @@ const Hired = () => {
     return (
         <>
             <div id='hired'>
-            fhasdifuhasdi pfhaspdofh pasdoihfoasdc
+           
 
             </div>
 

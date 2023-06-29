@@ -16,7 +16,7 @@ const About = () => {
                 <div className='p-8 space-y-4'>
                     <a className=" hover:underline    w-full  font-bold lg:text-2xl text-xl text-white"> About <span className='text-yellow-500 italic'>Me</span></a>
 
-                    <p className='text-white'>
+                    <p className='text-white lg:text-xl '>
                         I'm  <span className='text-yellow-500 '> <a href=""> Mahbubur Rahman Mahbub</a> </span> , From Sylhet , Bangladesh. I'm currently doing  <span className='text-yellow-500 '> <a href=""> Computer science and Engineering</a> </span>  from  <span className='text-yellow-500 hover:underline'> <a href="https://www.lus.ac.bd">Leading University </a> </span> Kamalbazar , Sylhet.  I am  web developer who is passionate about building stunning and useful web applications. With a strong background in programming , I completed 130 Problems from Codeforce, and a dedication to lifelong learning, I am well-positioned to have a big influence in the web development industry. Moreover i have good
                         communication skill . <br />
 
