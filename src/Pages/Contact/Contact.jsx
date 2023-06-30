@@ -24,6 +24,7 @@ const Contact = () => {
                     showConfirmButton: false,
                     timer: 1500
                 })
+                e.target.reset();
 
             }, (error) => {
                 console.log(error.text);
@@ -73,15 +74,15 @@ const Contact = () => {
 
                         <div className="wrapper flex flex-col p-5 md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
-                                <input required type="text" name='user_name' className="input text-white " placeholder="Enter your name here" />
-                                <input required type="email" name='user_email' className="input my-5 text-white outline-none" placeholder="Enter your email here" />
-                                <input required type="text" name='user_phone' className="input mb-5 text-[#ffffff73] outline-none" placeholder="Enter your phone number" />
+                                <input required type="text" name='user_name' className="input text-black font-semibold " placeholder="Enter your name here" />
+                                <input required type="email" name='user_email' className="input my-5 text-black font-semibold" placeholder="Enter your email here" />
+                                <input required type="text" name='user_phone' className="input mb-5 text-black font-semibold" placeholder="Enter your phone number" />
 
-                                <textarea name="message" cols="30" rows="8" className="input " placeholder="Write details here">
+                                <textarea name="message" cols="30" rows="8" className="input  text-black font-semibold" placeholder="Write details here">
 
                                 </textarea>
 
-                                <button className="px-3 btn bg-gradient-to-r from-yellow-500 to-purple-600 border-none hover:shadow-2xl active:bg-[#ffffff73] py-2 w-24 text-white  rounded-lg mt-4">Send</button>
+                                <button className="px-3 btn bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl   border-none hover:text-white active:bg-[#ffffff73] py-2 w-24 text-black font-semibold  rounded-lg mt-4">Send</button>
                             </form>
 
 

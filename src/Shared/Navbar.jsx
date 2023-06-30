@@ -14,9 +14,9 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' r rounded-lg  bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
             color: 'white',
-            borderBottom: '4px solid red',
+            borderBottom: '4px solid white',
 
         }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
@@ -26,9 +26,9 @@ const Navbar = () => {
 
         </Link>
 
-        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black  text-lg lg:text-2xl text-black font-semibold' activeStyle={{
             color: 'white',
-            borderBottom: '4px solid red',
+            borderBottom: '4px solid white',
 
         }} to='skill' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
@@ -39,9 +39,9 @@ const Navbar = () => {
         </Link>
 
 
-        <Link activeClass='active' className='rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   text-lg lg:text-2xl   text-black  font-semibold' activeStyle={{
             color: 'white',
-            borderBottom: '4px solid red',
+            borderBottom: '4px solid white',
 
         }} to='projects' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
@@ -54,9 +54,9 @@ const Navbar = () => {
 
 
 
-        <Link activeClass='active' className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl  text-black  font-semibold' activeStyle={{
+        <Link activeClass='active' className='  rounded-lg  bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black  text-lg lg:text-2xl  text-black  font-semibold' activeStyle={{
             color: 'white',
-            borderBottom: ' 4px solid red',
+            borderBottom: ' 4px solid white',
             // textDecoration: 'underline'
         }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link className=' rounded-lg  bg-gradient-to-r from-yellow-500 to-purple-600 hover:shadow-2xl  text-lg lg:text-2xl  text-black  font-semibold' to='contact' spy={true} smooth={true} offset={50} duration={500}   >
+        <Link className='  rounded-lg  bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   text-lg lg:text-2xl  text-black  font-semibold' to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaMale lassName='text-black w-8 h-6' />
                 <li >Hired</li>

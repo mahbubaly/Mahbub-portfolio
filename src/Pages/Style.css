@@ -1,5 +1,9 @@
 body {
-  background-image:  linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%,#080808 10%);
+  background-image: linear-gradient(90deg, #020024 0%, #696969 100%);
+}
+
+.full-back {
+  background-image: linear-gradient(90deg, #020024 0%, #35C8AC 100%);
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,17 +42,3 @@ body {
 
 
 /* image */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
