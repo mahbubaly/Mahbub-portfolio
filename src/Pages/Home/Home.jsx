@@ -34,13 +34,13 @@ const Home = () => {
                 <title> Mahbubu portfolio | home</title>
             </Helmet>
             <div id='/' className='container mx-auto grid lg:grid-cols-2 grid-cols-1 justify-center p-6 gap-8 items-center pt-10'>
-                <div data-aos="zoom-in-right"
+                <div className='' data-aos="zoom-in-right"
 
                     data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
 
-                    <div className='space-y-4 text-yellow-600 lg:mt-0 mt-12'>
+                    <div className='space-y-4 text-yellow-600 lg:z-0 z-30 lg:mt-0 mt-12'>
                         <h1 className='text-2xl font-bold' >Hi 👋, </h1>
                         <h1 className='text-2xl font-bold'>I'm Mahbub <br />
 
@@ -69,7 +69,7 @@ const Home = () => {
                         data-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out" className='lg:grid grid-cols-12 gap-6 justify-center items-center'>
-                        <div className='col-span-8 flex justify-center'>
+                        <div className='col-span-8 flex justify-center md:justify-start lg:justify-center'>
                             <abbr title="I am Mahbub , Current age 21!!">
 
                                 <img
@@ -79,7 +79,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className=' text-white col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap lg:ml-20 gap-5 flex lg:flex-col'>
+                        <div className=' text-white col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap-reverse lg:ml-20 gap-5 flex md:flex-row lg:flex-col'>
 
 
 
