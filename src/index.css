@@ -28,7 +28,7 @@ body {
     /* margin: 0 auto; */
     background-color: red;
     border-radius: 20px;
-    background:  linear-gradient(90deg, #020024 0%, #35C8AC 50%, #2F6361 100%);
+    background:  linear-gradient(90deg, #020024 0%, #0b0b0b 50%, #2F6361 100%);
     box-shadow: -3px -3px 7px #2e2e2e,
         2px 2px 5px rgba(94, 104, 121, 0.288);
 }

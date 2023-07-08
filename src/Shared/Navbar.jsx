@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import { FaHome, FaMale, FaPhoenixFramework, FaPodcast, } from 'react-icons/fa';
 import { RxCross2 } from 'react-icons/rx';
 import name from '../assets/Images/mahbub/logo.png'
+import '../Pages/style.css'
 
 
 
@@ -15,8 +16,10 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link activeClass='active' className=' block rounded-md bg-teal-600  text-sm font-medium text-white transition hover:bg-teal-700 lg:my-0 my-3   bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   lg:text-xl' activeStyle={{
+        <Link activeClass='active' className=' block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' 
+        activeStyle={{
             color: 'white',
+            
             borderBottom: '2px solid white',
 
         }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
@@ -27,7 +30,7 @@ const Navbar = () => {
 
         </Link>
 
-        <Link activeClass='active' className=' block rounded-md bg-teal-600  text-sm font-medium text-white transition hover:bg-teal-700    bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   lg:text-xl' activeStyle={{
+        <Link activeClass='active' className='  block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' activeStyle={{
             color: 'white',
             borderBottom: '2px solid white',
 
@@ -40,7 +43,7 @@ const Navbar = () => {
         </Link>
 
 
-        <Link activeClass='active' className=' block rounded-md bg-teal-600  text-sm font-medium text-white transition hover:bg-teal-700 lg:my-0 my-3   bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   lg:text-xl' activeStyle={{
+        <Link activeClass='active' className='  block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' activeStyle={{
             color: 'white',
             borderBottom: '2px solid white',
 
@@ -52,30 +55,33 @@ const Navbar = () => {
 
         </Link>
 
-        <Link activeClass='active' className=' block rounded-md bg-teal-600  text-sm font-medium text-white transition hover:bg-teal-700   lg:my-0 my-3 bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   lg:text-xl' activeStyle={{
-            color: 'white',
-            borderBottom: '2px solid white',
-
-        }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
-        <div className='flex gap-1 justify-center items-center p-2'>
-            <FaPhoenixFramework lassName='text-black w-8 h-6' />
-            <li >Contact</li>
-        </div>
-
-        </Link>
-
-
-        <Link activeClass='active' className=' block rounded-md bg-teal-600  text-sm font-medium text-white transition hover:bg-teal-700   lg:my-0 my-3 bg-gradient-to-r from-blue-950 to-emerald-400 hover:shadow-2xl hover:text-black   lg:text-xl' activeStyle={{
+        <Link activeClass='active' className='  block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' activeStyle={{
             color: 'white',
             borderBottom: '2px solid white',
 
         }} to='contact' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
-                <FaMale lassName='text-black w-8 h-6' />
-                <li >Hired</li>
+                <FaPhoenixFramework lassName='text-black w-8 h-6' />
+                <li >Contact</li>
             </div>
 
         </Link>
+        <Link activeClass='active' className='  block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' activeStyle={{
+            color: 'white',
+            borderBottom: '2px solid white',
+
+        }} to='' spy={true} smooth={true} offset={50} duration={500}   >
+            <div className='flex gap-1 justify-center items-center p-2'>
+              
+               
+
+               <li>Blogs</li>
+            </div>
+
+        </Link>
+
+
+
 
 
 
@@ -112,12 +118,12 @@ const Navbar = () => {
 
 
 
-            <div className="mx-auto container px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto fixed z-50 container px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
                         <a className="block text-teal-600" href="/">
                             <span className="sr-only">Home</span>
-                           <img className='w-[100px] h-[100px]' src={name} alt="" />
+                            <img className='w-[100px]  h-[100px]' src={name} alt="" />
                         </a>
                     </div>
 
@@ -130,21 +136,19 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex items-center gap-4">
-                        <div className="sm:flex sm:gap-4">
+                        <div className="sm:flex sm:gap-4 ">
                             <a
-                                className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-                                href="/"
+                                className="rounded-md bg-teal-600 shadow_bg  px-5 py-2.5 text-sm font-medium text-white shadow"
+                                href="https://www.fiverr.com/?force_buying_nav"
                             >
-                                Login
+                                Hire on Fiverr
                             </a>
 
                             <div className="hidden sm:flex">
-                                <a
-                                    className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
-                                    href="/"
-                                >
-                                    Register
-                                </a>
+
+
+
+
                             </div>
                         </div>
 
