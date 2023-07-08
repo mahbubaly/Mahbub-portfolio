@@ -27,7 +27,7 @@ const Skills = () => {
                 <div className="py-10 text-center uppercase ">
                     <a className="font-bold lg:text-2xl pb-2 text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Skills</span></a>
                 </div>
-                <div className="grid md:grid-cols-2   grid-cols-2 px-5 gap-7 mb-5 uppercase">
+                <div className="grid md:grid-cols-2   grid-cols-1 px-5 gap-7 mb-5 uppercase">
 
                     {/* Frontend */}
                     <div className='' >
@@ -36,7 +36,7 @@ const Skills = () => {
                             data-aos-delay="50"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out" className="text-2xl text-primary text-center underline ">Front-End</h1>
-                        <div className='grid lg:grid-cols-3 grid-cols-1 gap-7 mt-5'>
+                        <div className='grid lg:grid-cols-3 grid-cols-2 gap-7 mt-5'>
                             <div data-aos="fade-left"
 
                                 data-aos-delay="50"
