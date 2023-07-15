@@ -1,6 +1,5 @@
 import React from 'react';
-
-import img from '../../assets/Images/mahbub/mahbub-pro-pic.jpg'
+import img2 from '../../assets/Images/mahbub/mine.jpg'
 import resume from '../../assets/Images/mahbub/Resume of Mahbub.pdf'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import About from './AboutMe/About';
@@ -33,7 +32,7 @@ const Home = () => {
             <Helmet>
                 <title> Mahbubu portfolio | home</title>
             </Helmet>
-            <div id='/' className='container mx-auto grid lg:grid-cols-2 grid-cols-1 justify-center p-6 gap-8 items-center pt-10'>
+            <div id='/' className=' mx-auto grid lg:grid-cols-2 grid-cols-1 justify-center p-6 gap-8 items-center pt-10'>
                 <div className='' data-aos="zoom-in-right"
 
                     data-aos-delay="50"
@@ -74,12 +73,12 @@ const Home = () => {
 
                                 <img
                                     className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-white 
-                                     box-border h-[400px] justify-center rounded-[50%]' src={img} alt="This is mahbub " />
+                                     box-border h-[400px] justify-center rounded-[50%]' src={img2} alt="This is mahbub " />
                             </abbr>
                         </div>
 
 
-                        <div className=' text-white col-span-4 lg:p-0 px-4 lg:mt-0 mt-5 flex-wrap-reverse lg:ml-20 gap-5 flex md:flex-row lg:flex-col'>
+                        <div className=' text-white col-span-4 lg:p-0 px-4 lg:mt-0  mt-5 flex-wrap-reverse lg:ml-[50%] gap-5 flex md:flex-row lg:flex-col'>
 
 
 
