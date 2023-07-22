@@ -40,7 +40,7 @@ const Contact = () => {
             <Helmet>
                 <title> Mahbubu portfolio | Contact</title>
             </Helmet>
-            <div id='contact' className='container mx-auto my-32'>
+            <div id='contact' className=' my-32'>
 
                 <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[50%] text-center mx-auto my-10 text-2xl p-4 text-white font-bold'> Contact Me  </h1>
 

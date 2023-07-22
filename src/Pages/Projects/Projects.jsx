@@ -26,7 +26,7 @@ const Projects = () => {
             </Helmet>
 
             <section className='section' id='projects'>
-                <div className='container mx-auto'>
+                <div className=''>
 
                     <div className='lg:ml-0 ml-[10%]'>
                         <motion.div
