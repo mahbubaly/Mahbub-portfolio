@@ -10,7 +10,6 @@ import img8 from '../../assets/Images/Projects/bistro.png'
 import img9 from '../../assets/Images/Projects/9.png'
 import '../../Pages/Style.css'
 import 'aos/dist/aos.css';
-import { motion } from "framer-motion"
 import { FaGithub, FaLink } from 'react-icons/fa';
 import { Helmet } from 'react-helmet-async';
 
