@@ -7,6 +7,7 @@ import img5 from '../../assets/Images/Projects/appliedJon.png'
 import img6 from '../../assets/Images/Projects/127.0.0.1_5500_index.html.png'
 import img7 from '../../assets/Images/Projects/a3.png'
 import img8 from '../../assets/Images/Projects/bistro.png'
+import img9 from '../../assets/Images/Projects/9.png'
 import '../../Pages/Style.css'
 import 'aos/dist/aos.css';
 import { motion } from "framer-motion"
@@ -29,26 +30,68 @@ const Projects = () => {
                 <div className=''>
 
                     <div className='lg:ml-0 ml-[10%]'>
-                        <motion.div
+                        <div
 
                             className='flex-1 text-center'>
                             <div id='projects' className="py-10 text-center uppercase ">
                                 <a className="font-bold lg:text-2xl pb-2 text-white border-b-4 rounded border-b-yellow-600"> My <span className='text-yellow-500 '>Projects</span></a>
                                 <br />
-                                <p className='text-white mt-4 '>Completed 30+ projects</p>
+                                <p className='text-white mt-4 '>Completed 35+ projects</p>
                             </div>
 
 
-                        </motion.div>
+                        </div>
 
 
                         <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-12'>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
-                                    <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit  ' src={img1} alt="summer-training!" /></div>
+                                    className="card lg:w-full w-80 ">
+                                    <div className='overflow-scroll content h-60  rounded-lg'  >
+                                        <img className='object-contain ' src={img9} alt="summer-training!" />
+                                    </div>
+
+                                    <div className="card-body">
+                                        <h2 className="my-2 card-title">National admission </h2>
+
+                                        <div className='flex items-center justify-between'>
+                                            <a href='https://github.com/mahbubaly/College_admission' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-8 h-8' />
+                                            </a>
+                                            <a href='https://github.com/mahbubaly/admission-server' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-8 h-8' /></a>
+                                            <a href='https://college-admission.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-8 h-8'></FaLink></a>
+                                        </div>
+                                        <div className="card-actions justify-end">
+                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_5.showModal()}>Explore more</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <dialog id="my_modal_5" className="modal">
+                                    <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
+                                        <h3 className="font-bold text-lg">Hello!</h3>
+                                        <p className="py-4">This is Popular Chefs And Foods web site.
+                                            This is a single page web site
+                                            Use this Site you can Choose Chef And Food.
+                                            You see the many Chefs and every single Chef details .
+                                            You can see the Chefs Recipes , Chefs Like , Chefs Experience and Number Of Recipes.
+                                            You Also Create your Account And then Login this site .</p>
+
+                                        <div className="modal-action">
+                                            {/* if there is a button, it will close the modal */}
+                                            <button className="btn">Close</button>
+                                        </div>
+                                    </form>
+                                </dialog>
+                            </div>
+                            <div className='text-white scroll-container'>
+                                <div
+
+                                    className="card lg:w-full w-80 ">
+                                    <div className='overflow-scroll content h-60  rounded-lg'  >
+                                        <img className='object-contain ' src={img1} alt="summer-training!" />
+                                    </div>
 
                                     <div className="card-body">
                                         <h2 className="my-2 card-title">Summer-camp</h2>
@@ -63,7 +106,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_5.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_5" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
@@ -84,9 +127,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit  ' src={img8} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -102,7 +145,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_6.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
                                 <dialog id="my_modal_6" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
                                         <h3 className="font-bold text-lg">Hello!</h3>
@@ -122,9 +165,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit   ' src={img2} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -140,17 +183,16 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_7.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_7" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">This is Popular Chefs And Foods web site.
+                                        <h3 className="font-bold text-lg">Toy shop!</h3>
+                                        <p className="py-4">This is a Toy shop  web site Which is base on ecommerce Website.
                                             This is a single page web site
-                                            Use this Site you can Choose Chef And Food.
-                                            You see the many Chefs and every single Chef details .
-                                            You can see the Chefs Recipes , Chefs Like , Chefs Experience and Number Of Recipes.
-                                            You Also Create your Account And then Login this site .</p>
+                                            Use this Site you can Choose Verity of product which can you your child.
+                                            You see the many toy creator  details and more information about them .
+                                            </p>
 
                                         <div className="modal-action">
                                             {/* if there is a button, it will close the modal */}
@@ -161,9 +203,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit   ' src={img4} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -179,7 +221,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_8.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_8" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
@@ -200,9 +242,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit   ' src={img3} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -218,7 +260,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_9.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_9" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
@@ -239,9 +281,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit  ' src={img5} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -257,7 +299,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_10.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_10" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
@@ -278,9 +320,9 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit  ' src={img6} alt="summer-training!" /></div>
 
                                     <div className="card-body">
@@ -296,7 +338,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_11.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
 
                                 <dialog id="my_modal_11" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
@@ -317,10 +359,10 @@ const Projects = () => {
                             </div>
 
                             <div className='text-white scroll-container'>
-                                <motion.div
+                                <div
                                     data-aos=""
 
-                                    className="card lg:w-full w-80 glass">
+                                    className="card lg:w-full w-80 ">
                                     <div className='overflow-scroll content h-60  rounded-lg'  >
                                         <img className='object-contain h-fit  ' src={img7} alt="" />
                                     </div>
@@ -338,7 +380,7 @@ const Projects = () => {
                                             <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_12.showModal()}>Explore more</button>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
                                 <dialog id="my_modal_12" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
                                         <h3 className="font-bold text-lg">Hello!</h3>

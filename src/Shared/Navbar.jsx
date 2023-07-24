@@ -16,13 +16,13 @@ const Navbar = () => {
 
     const navbar = <>
 
-        <Link activeClass='active' className=' block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl' 
-        activeStyle={{
-            color: 'white',
-            
-            borderBottom: '2px solid white',
+        <Link activeClass='active' className=' block rounded-md bg-teal-600 shadow_bg  text-sm font-medium  transition  lg:my-0 my-3     lg:text-xl'
+            activeStyle={{
+                color: 'white',
 
-        }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
+                borderBottom: '2px solid white',
+
+            }} to='/' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
                 <FaHome lassName='text-black w-10 h-6' />
                 <li >Home</li>
@@ -72,10 +72,10 @@ const Navbar = () => {
 
         }} to='' spy={true} smooth={true} offset={50} duration={500}   >
             <div className='flex gap-1 justify-center items-center p-2'>
-              
-               
 
-               <li>Blogs</li>
+
+
+                <li>Blogs</li>
             </div>
 
         </Link>
@@ -118,7 +118,7 @@ const Navbar = () => {
 
 
 
-            <div className="mx-auto  z-50 max-w-screen-xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto  z-50 max-w-screen-2xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
                         <a className="block text-teal-600" href="/">
@@ -127,7 +127,7 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    <div className="hidden md:block">
+                    <div className="hidden lg:block">
                         <nav aria-label="Global">
                             <ul className="flex items-center gap-6 text-sm">
                                 {navbar}
@@ -183,7 +183,7 @@ const Navbar = () => {
 
 
                                     <nav aria-label="Global">
-                                        <ul className="  gap-6 text-sm">
+                                        <ul className="block lg:hidden  gap-6 text-sm">
                                             {navbar}
                                         </ul>
                                     </nav>
