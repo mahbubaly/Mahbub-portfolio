@@ -44,7 +44,7 @@ const Projects = () => {
 
                         <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-12'>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -62,20 +62,19 @@ const Projects = () => {
                                             <a href='https://college-admission.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-8 h-8'></FaLink></a>
                                         </div>
                                         <div className="card-actions justify-end">
-                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_5.showModal()}>Explore more</button>
+                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_1.showModal()}>Explore more</button>
                                         </div>
                                     </div>
                                 </div>
 
-                                <dialog id="my_modal_5" className="modal">
+                                <dialog id="my_modal_1" className="modal">
                                     <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">This is Popular Chefs And Foods web site.
+                                        <h3 className="font-bold text-lg">National College</h3>
+                                        <p className="py-4">This is a national College web site.
                                             This is a single page web site
-                                            Use this Site you can Choose Chef And Food.
-                                            You see the many Chefs and every single Chef details .
-                                            You can see the Chefs Recipes , Chefs Like , Chefs Experience and Number Of Recipes.
-                                            You Also Create your Account And then Login this site .</p>
+                                            Use this Site you can Choose any college and can get admit.
+                                            You see the the information of any university before that you have to log in first. Check details and get admit . For applied you have to fill up from . Which take some information about you. For more information visit the website. 
+                                           </p>
 
                                         <div className="modal-action">
                                             {/* if there is a button, it will close the modal */}
@@ -84,7 +83,7 @@ const Projects = () => {
                                     </form>
                                 </dialog>
                             </div>
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -125,7 +124,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -163,7 +162,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -201,7 +200,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -240,7 +239,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -279,7 +278,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -318,7 +317,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
 
                                     className="card lg:w-full w-80 ">
@@ -357,7 +356,7 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                            <div className='text-white scroll-container'>
+                            <div className='text-white scroll-container  border-2 p-3'>
                                 <div
                                     data-aos=""
 

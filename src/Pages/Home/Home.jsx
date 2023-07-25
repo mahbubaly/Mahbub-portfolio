@@ -74,7 +74,7 @@ const Home = () => {
 
                                     <img
                                         className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-white 
-                                     box-border h-[400px] justify-center rounded-[50%]' src={img2} alt="This is mahbub " />
+                                     box-border h-[400px] justify-center rounded-[50%]'  src={img2} alt="This is mahbub " />
                                 </abbr>
                             </div>
 

@@ -3,7 +3,7 @@ body {
 }
 
 .full-back {
-  background-image: linear-gradient(90deg, #020024 0%, #000000 100%);
+  background-image: linear-gradient(90deg, #020024 0%, #444141 100%);
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,15 +11,16 @@ body {
 }
 
 
-.shadow_bg{
+.shadow_bg {
   color: white;
 
   box-shadow: 0px 0px 2px 0px;
 }
-.shadow_bg:hover{
-  
+
+.shadow_bg:hover {
+
   box-shadow: 0px 0px 10px 5px;
- 
+
 }
 
 
@@ -53,4 +54,4 @@ body {
 }
 
 
-/* image */
+
