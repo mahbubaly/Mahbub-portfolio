@@ -173,7 +173,7 @@ const Projects = () => {
                             data-aos-duration="3000"
 
                             data-aos-delay="50" >
-                            <Link to="/ViewAllProjects" className='btn bg-black text-white w-[20%] flex mx-auto items-center text-xl mt-8' > <button>View All </button> <BsArrowRight />  </Link>
+                            <Link to="/ViewAllProjects" className='btn bg-black text-white w-[30%] flex mx-auto items-center text-xl mt-8' > <button>View All </button> <BsArrowRight />  </Link>
                         </div>
 
 
