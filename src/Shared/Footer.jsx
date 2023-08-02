@@ -5,9 +5,9 @@ const Footer = () => {
         <>
 
             <div className="bg-black mt-[10%]" data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos-duration="1000"
 
-                data-aos-delay="50" >
+               >
 
                 <footer >
                     <div
@@ -315,11 +315,11 @@ const Footer = () => {
                         </p>
                     </div>
                 </footer>
-                <footer className="footer footer-center p-4 ">
+                <div className="footer footer-center p-4 ">
                     <div className='text-white font-semibold'>
                         <p>Copyright © 2023 - All right reserved by <a className='hover:underline' href="https://github.com/mahbubaly"> mahbubur Rahman</a></p>
                     </div>
-                </footer>
+                </div>
             </div>
 
 
