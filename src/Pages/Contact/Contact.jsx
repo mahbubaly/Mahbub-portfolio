@@ -47,10 +47,10 @@ const Contact = () => {
 
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-7 '>
 
-                    <div data-aos="fade-down"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out" className="text-white p-9 flex  justify-around">
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000"
+
+                        data-aos-delay="50" className="text-white p-9 flex  justify-around">
 
                         <div>
                             <a href="https://www.facebook.com/mahbubali72" target="_blank" rel="noreferrer" className="p-3 rounded-full "> <FaFacebook className='w-10 h-10 mb-2' />Facebook </a>
@@ -68,9 +68,10 @@ const Contact = () => {
 
 
                     <div className=" p-5 lg:w-full w-96 mx-auto border-none"
-                        data-aos="fade-up" data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out" >
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+
+                        data-aos-delay="50" >
 
                         <div className="wrapper flex flex-col p-5 md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
@@ -98,7 +99,7 @@ const Contact = () => {
                 </div>
 
 
-                
+
             </div>
         </>
     );

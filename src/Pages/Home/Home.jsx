@@ -1,5 +1,6 @@
 import React from 'react';
 import img2 from '../../assets/Images/mahbub/mine.jpg'
+import img3 from '../../assets/Images/mahbub/My 1.png'
 import resume from '../../assets/Images/mahbub/Resume of Mahbub.pdf'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import About from './AboutMe/About';
@@ -30,21 +31,20 @@ const Home = () => {
         <>
 
             <Helmet>
-                <title> Mahbubu portfolio | home</title>
+                <title> Mahbubu portfolio || home</title>
             </Helmet>
             <div className='max-w-screen-xl mx-auto'>
                 <div id='/' className=' mx-auto grid lg:grid-cols-2 grid-cols-1 justify-center p-6 gap-8 items-center pt-10'>
-                    <div className='' data-aos="zoom-in-right"
+                    <div className='' data-aos="fade-up"
+                            data-aos-duration="3000"
 
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                            data-aos-delay="50">
 
-                        <div className='space-y-4 text-yellow-600 lg:z-0 z-30 lg:mt-0 mt-12'>
-                            <h1 className='text-2xl font-bold' >Hi 👋, </h1>
+                        <div className='space-y-4 text-white lg:z-0 z-30 lg:mt-0 mt-12'>
+                            <h1 className='text-2xl font-bold ' >Hi 👋, </h1>
                             <h1 className='text-2xl font-bold'>I'm Mahbub <br />
 
-                                <span className='text-yellow-600 my-2' >  {text}</span>
+                                <span className='text-white my-2' >  {text}</span>
                                 <span style={{ color: '#CA8A04' }}>
                                     <Cursor cursorStyle="!" />
                                 </span>
@@ -64,17 +64,16 @@ const Home = () => {
                     </div>
 
                     <div>
-                        <div data-aos="zoom-in-left"
+                        <div data-aos="fade-up"
+                            data-aos-duration="3000"
 
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out" className='lg:grid grid-cols-12 gap-6 justify-center items-center'>
+                            data-aos-delay="50" className='lg:grid grid-cols-12 gap-6 justify-center items-center'>
                             <div className='col-span-8 flex justify-center md:justify-start lg:justify-center'>
                                 <abbr title="I am Mahbub , Current age 21!!">
 
                                     <img
                                         className=' lg:ml-[20%] w-[400px] mt-20 shadow-2xl shadow-white 
-                                     box-border h-[400px] justify-center rounded-[50%]'  src={img2} alt="This is mahbub " />
+                                     box-border h-[400px] justify-center rounded-[50%] '  src={img3} alt="This is mahbub " />
                                 </abbr>
                             </div>
 

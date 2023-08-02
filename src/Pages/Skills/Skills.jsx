@@ -37,95 +37,58 @@ const Skills = () => {
                 <div className="grid md:grid-cols-2   grid-cols-1 px-5 gap-7 mb-5 uppercase">
 
                     {/* Frontend */}
-                    <div className='' >
-                        <h1 data-aos="fade-right"
+                    <div className='' data-aos="fade-up"
+                            data-aos-duration="3000"
 
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out" className="text-2xl text-primary text-center underline ">Front-End</h1>
+                            data-aos-delay="50" >
+                        <h1  className="text-2xl text-primary text-center underline ">Front-End</h1>
                         <div className='grid lg:grid-cols-3 grid-cols-2 gap-7 mt-5'>
-                            <div data-aos="fade-left"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={html} className='w-20 h-20' alt="" />
                                 <h1 className="text-xl font-semibold text-white mb-1">Html 5</h1>
                             </div>
-                            <div className='' data-aos="zoom-out"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className=''>
                                 <img src={css} className='w-16 h-20' alt="" />
                                 <h1 className="text-xl font-semibold text-white mb-1">CSS 3</h1>
 
                             </div>
-                            <div data-aos="fade-down"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={java} className='w-16' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">Javascript</h1>
 
                             </div>
-                            <div className='my-2' data-aos="fade-up"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className='my-2'>
                                 <img src={react} className='w-20 h-20' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">React js</h1>
 
                             </div>
-                            <div data-aos="zoom-in"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={tailwind} className='w-20 h-20' alt="" />
                                 <h1 className="text-xl font-semibold text-white mb-1">Tailwind</h1>
 
 
                             </div >
-                            <div className='my-2' data-aos="fade-down"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className='my-2' >
                                 <img src={bootstrap} className='w-20 h-20' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">Bootstrap</h1>
 
                             </div>
-                            <div className='my-2' data-aos="zoom-in"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className='my-2' >
                                 <img src={firebase} className='w-20 h-20' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">Firebase</h1>
 
                             </div>
-                            <div className='my-2' data-aos="fade-right"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className='my-2' >
                                 <img src={sass} className='w-20 h-20' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">SASS</h1>
 
                             </div>
-                            <div data-aos="fade-left"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={gitHub} className='w-20 rounded-lg h-20 bg-white' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mb-1">GitHub</h1>
@@ -139,45 +102,30 @@ const Skills = () => {
                     {/* Back end  */}
 
 
-                    <div className='' >
-                        <h1 data-aos="fade-right"
+                    <div className='' data-aos="fade-up"
+                        data-aos-duration="3000"
 
-                            data-aos-delay="50"
-                            data-aos-duration="1000"
+                        data-aos-delay="50"s >
+                        <h1
+
                             data-aos-easing="ease-in-out" className="text-2xl text-primary text-center underline ">Backend</h1>
                         <div className='grid lg:grid-cols-3 grid-cols-2 gap-7 mt-5'>
-                            <div data-aos="fade-left"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={express} className='w-20 h-20 bg-white rounded ' alt="" />
                                 <h1 className="text-xl font-semibold text-white mt-1">Express</h1>
                             </div>
-                            <div className='' data-aos="zoom-out"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className=''>
                                 <img src={node} className='w-20 h-20 bg-white rounded' alt="" />
                                 <h1 className="text-xl font-semibold text-white mt-1">Node</h1>
 
                             </div>
-                            <div data-aos="fade-down"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div >
                                 <img src={mongodb} className='w-20 h-20 bg-white rounded' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mt-1">Mongodb</h1>
 
                             </div>
-                            <div className='my-2' data-aos="fade-up"
-
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
+                            <div className='my-2'>
                                 <img src={nextJs} className='w-20 h-20 rounded-md' alt="" />
 
                                 <h1 className="text-xl font-semibold text-white mt-1">Next js</h1>
@@ -188,39 +136,36 @@ const Skills = () => {
                         </div>
 
 
-                        <h1 className="text-2xl text-white text-center underline mt-8 ">Programming</h1>
+                        <h1 data-aos="fade-up"
+                            data-aos-duration="3000"
+
+                            data-aos-delay="50"
+                             className="text-2xl text-white text-center underline mt-8 ">Programming</h1>
 
                         <div className='' >
-                          
-                            <div className='grid lg:grid-cols-3 grid-cols-2 gap-7 mt-5'>
-                                <div data-aos="fade-left"
 
-                                    data-aos-delay="50"
-                                    data-aos-duration="1000"
-                                    data-aos-easing="ease-in-out">
+                            <div data-aos="fade-up"
+                            data-aos-duration="3000"
+                            data-aos-delay="50"
+
+                            
+                             className='grid lg:grid-cols-3 grid-cols-2 gap-7 mt-5'>
+                                <div >
                                     <img src={C} className='w-20 h-20' alt="" />
                                     <h1 className="text-xl font-semibold text-white mb-1">C</h1>
                                 </div>
-                                <div className='' data-aos="zoom-out"
-
-                                    data-aos-delay="50"
-                                    data-aos-duration="1000"
-                                    data-aos-easing="ease-in-out">
+                                <div className='' >
                                     <img src={cc} className='w-16 h-20' alt="" />
                                     <h1 className="text-xl font-semibold text-white mb-1">C++</h1>
 
                                 </div>
-                                <div data-aos="fade-down"
-
-                                    data-aos-delay="50"
-                                    data-aos-duration="1000"
-                                    data-aos-easing="ease-in-out">
+                                <div>
                                     <img src={python} className='w-16' alt="" />
 
                                     <h1 className="text-xl font-semibold text-white mb-1">Python</h1>
 
                                 </div>
-                              
+
                             </div>
                         </div>
                     </div>

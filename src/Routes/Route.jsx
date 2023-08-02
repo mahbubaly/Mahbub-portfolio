@@ -5,6 +5,7 @@ import {
 import Main from "../Layouts/Main/Main";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
+import ViewAllProjects from "../Pages/Projects/ViewAllProjects";
 
 
 const router = createBrowserRouter([
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <Home />
             },
-            
-           
+            {
+                path: "/ViewAllProjects",
+                element: <ViewAllProjects />
+            }
+
+
 
         ]
     },
