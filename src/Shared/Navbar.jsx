@@ -181,7 +181,7 @@ const Navbar = () => {
                                     }
                                 </span>
 
-                                <div className={`${open ? 'bg-black w-full right-0 top-0  p-4   pl-3 ' : '-bottom-96 -left-1/4'
+                                <div className={`${open ? 'bg-black w-full right-0 top-0  p-4   pl-3 ' : '-bottom-96 -left-[100%]'
                                     } absolute flex flex-col duration-500  gap-6 `}  >
 
 
