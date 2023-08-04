@@ -165,15 +165,23 @@ const Projects = () => {
                                 </dialog>
                             </div>
 
-                           
+
 
                         </div>
 
                         <div data-aos="fade-up"
                             data-aos-duration="3000"
 
-                            data-aos-delay="50" >
-                            <Link to="/ViewAllProjects" className='btn bg-black text-white w-[30%] flex mx-auto items-center text-xl mt-8' > <button>View All </button> <BsArrowRight />  </Link>
+                            data-aos-delay="50" className='' >
+
+
+
+
+                            <Link to="/ViewAllProjects" className=' mx-auto flex justify-center my-8 ' >
+                                <button className='hover:underline btn btn-outline border-0 border-b-4 border-yellow-600 text-white hover:bg-yellow-600 hover:border-yellow-600'>Go View All <BsArrowRight className='w-6 h-6 ' />
+                                </button>
+                                
+                            </Link>
                         </div>
 
 
