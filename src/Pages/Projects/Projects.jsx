@@ -46,12 +46,12 @@ const Projects = () => {
                         <div data-aos="fade-up"
                             data-aos-duration="3000"
 
-                            data-aos-delay="50" className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-12'>
+                            data-aos-delay="50" className='grid gap-10  lg:mr-0 mr-5 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-12'>
 
-                            <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
-                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                            <div className='text-white    scroll-container rounded-[8px] border-2 p-[4px]'>
+                                <div className="card  lg:w-auto  mx-auto">
                                     <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
-                                        <img className=' mx-auto ' src={img2} alt="summer-training!" />
+                                        <img className=' mx-auto lg:w-auto ' src={img2} alt="summer-training!" />
                                     </div>
 
                                     <div className="lg:px-5 mt-5">
@@ -72,7 +72,7 @@ const Projects = () => {
 
 
                             <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
-                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                                <div className="card  lg:w-auto  mx-auto">
                                     <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
                                         <img className=' ' src={img9} alt="summer-training!" />
                                     </div>
@@ -95,7 +95,7 @@ const Projects = () => {
 
 
                             <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
-                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                                <div className="card  lg:w-auto  mx-auto">
                                     <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
                                         <img className=' ' src={img1} alt="summer-training!" />
                                     </div>

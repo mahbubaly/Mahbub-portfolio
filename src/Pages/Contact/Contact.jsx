@@ -42,7 +42,7 @@ const Contact = () => {
             </Helmet>
             <div id='contact' className=' my-32'>
 
-                <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[50%] text-center mx-auto my-10 text-2xl p-4 text-white font-bold'> Contact Me  </h1>
+                <h1 className='border-b-4 border-purple-700 lg:w-[15%] w-[70%] text-center mx-auto my-10 text-2xl p-4 text-white font-bold'> Contact Me  </h1>
 
 
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-7 '>
@@ -53,27 +53,33 @@ const Contact = () => {
                         data-aos-delay="50" className="text-white p-9 flex  justify-around">
 
                         <div>
-                            <a href="https://www.facebook.com/mahbubali72" target="_blank" rel="noreferrer" className="p-3 rounded-full "> <FaFacebook className='w-10 h-10 mb-2' />Facebook </a>
-                            <a href="" target="_blank" rel="noreferrer" className="p-3 rounded-full "><FaTwitter className='w-10 h-10 my-3' />Twitter </a>
-                            <a href="https://github.com/mahbubaly" target="_blank" rel="noreferrer" className="p-3 rounded-full social"><FaGithub className='w-10 h-10 mb-2' />GitHub </a>
-                            <a href="https://www.linkedin.com/in/mahbubur-rahman-2a3a7b248/" target="_blank" rel="noreferrer" className="p-3 rounded-full"><FaLinkedin className='w-10 h-10 my-3' />Linkedin </a>
+                            <a href="https://www.facebook.com/mahbubali72" target="_blank" rel="noreferrer" className="p-3 rounded-full "> <FaFacebook className='w-[24px] h-[24px] mb-2' />Facebook </a>
+                            <a href="" target="_blank" rel="noreferrer" className="p-3 rounded-full "><FaTwitter className='w-[24px] h-[24px] my-3' />Twitter </a>
+                            <a href="https://github.com/mahbubaly" target="_blank" rel="noreferrer" className="p-3 rounded-full social"><FaGithub className='w-[24px] h-[24px] mb-2' />GitHub </a>
+                            <a href="https://www.linkedin.com/in/mahbubur-rahman-2a3a7b248/" target="_blank" rel="noreferrer" className="p-3 rounded-full"><FaLinkedin className='w-[24px] h-[24px] my-3' />Linkedin </a>
                         </div>
                         <div>
-                            <a href="https://stackoverflow.com/users/22107589/mahbubur-rahman" target="_blank" rel="noreferrer" className="p-3 rounded-full "><FaStackOverflow className='w-10 h-10 my-3' />StackOverflow </a>
-                            <a href="https://www.fiverr.com/mahbubalikhan10?up_rollout=true" target="_blank" rel="noreferrer" className="p-3 rounded-full"><TbBrandFiverr className='w-10 h-10 my-3' />Fiverr </a>
-                            <a href="https://wa.link/0owvkh" target="_blank" rel="noreferrer" className="p-3 rounded-full"><BsWhatsapp className='w-10 h-10 my-3' />Whatsapp </a>
+                            <a href="https://stackoverflow.com/users/22107589/mahbubur-rahman" target="_blank" rel="noreferrer" className="p-3 rounded-full mx-auto ">
+                                <FaStackOverflow className='w-[24px] h-[24px] my-3' />
+
+                                StackOverflow
+
+
+                            </a>
+                            <a href="https://www.fiverr.com/mahbubalikhan10?up_rollout=true" target="_blank" rel="noreferrer" className="p-3 rounded-full"><TbBrandFiverr className='w-[24px] h-[24px] my-3' />Fiverr </a>
+                            <a href="https://wa.link/0owvkh" target="_blank" rel="noreferrer" className="p-3 rounded-full"><BsWhatsapp className='w-[24px] h-[24px] my-3' />Whatsapp </a>
                         </div>
 
                     </div>
 
 
-                    <div className=" p-5 lg:w-full w-96 mx-auto border-none"
+                    <div className=" p-5 lg:w-full sm:w-96 mx-auto border-none"
                         data-aos="fade-up"
                         data-aos-duration="3000"
 
                         data-aos-delay="50" >
 
-                        <div className="wrapper flex flex-col  md:p-10">
+                        <div className="wrapper flex flex-col p-5 md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
                                 <input required type="text" name='user_name' className="input text-black font-semibold " placeholder="Enter your name here" />
                                 <input required type="email" name='user_email' className="input my-5 text-black font-semibold" placeholder="Enter your email here" />
