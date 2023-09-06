@@ -1,7 +1,6 @@
 import React from 'react';
 import img1 from '../../assets/Images/Projects/A12.png'
-
-import img8 from '../../assets/Images/Projects/bistro.png'
+import img2 from '../../assets/Images/Projects/e-com.png'
 import img9 from '../../assets/Images/Projects/9.png'
 import '../../Pages/Style.css'
 import 'aos/dist/aos.css';
@@ -23,6 +22,8 @@ const Projects = () => {
             </Helmet>
 
             <section className='section' id='projects'>
+
+
                 <div className='' >
 
                     <div className='lg:ml-0 ml-[10%]' data-aos="fade-up"
@@ -47,123 +48,81 @@ const Projects = () => {
 
                             data-aos-delay="50" className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-12'>
 
-                            <div className='text-white scroll-container border-2 p-3'>
-                                <div
-
-                                    className="card lg:w-full w-80 ">
-                                    <div className='overflow-scroll content h-60  rounded-lg'  >
-                                        <img className='object-contain ' src={img9} alt="summer-training!" />
+                            <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
+                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                                    <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
+                                        <img className=' mx-auto ' src={img2} alt="summer-training!" />
                                     </div>
 
-                                    <div className="card-body">
-                                        <h2 className="my-2 card-title">National admission </h2>
+                                    <div className="lg:px-5 mt-5">
+                                        <h2 className=" card-title">E-commerce website</h2>
 
-                                        <div className='flex items-center justify-between'>
-                                            <a href='https://github.com/mahbubaly/College_admission' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-8 h-8' />
+                                        <div className='flex mt-[15px]  pb-[30px] items-center justify-between'>
+                                            <a href='' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-[24px] h-[24px]' />
                                             </a>
-                                            <a href='https://github.com/mahbubaly/admission-server' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-8 h-8' /></a>
-                                            <a href='https://college-admission.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-8 h-8'></FaLink></a>
+                                            <a href='' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-[24px] h-[24px]' /></a>
+                                            <a href='https://xpeed-website.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-[24px] h-[24px]'></FaLink></a>
                                         </div>
-                                        <div className="card-actions justify-end">
-                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_1.showModal()}>Explore more</button>
-                                        </div>
+
                                     </div>
                                 </div>
 
-                                <dialog id="my_modal_1" className="modal">
-                                    <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
-                                        <h3 className="font-bold text-lg">National College</h3>
-                                        <p className="py-4">This is a national College web site.
-                                            This is a single page web site
-                                            Use this Site you can Choose any college and can get admit.
-                                            You see the the information of any university before that you have to log in first. Check details and get admit . For applied you have to fill up from . Which take some information about you. For more information visit the website.
-                                        </p>
 
-                                        <div className="modal-action">
-                                            {/* if there is a button, it will close the modal */}
-                                            <button className="btn">Close</button>
-                                        </div>
-                                    </form>
-                                </dialog>
                             </div>
-                            <div className='text-white scroll-container  border-2 p-3'>
-                                <div
 
-                                    className="card lg:w-full w-80 ">
-                                    <div className='overflow-scroll content h-60  rounded-lg'  >
-                                        <img className='object-contain ' src={img1} alt="summer-training!" />
+
+                            <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
+                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                                    <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
+                                        <img className=' ' src={img9} alt="summer-training!" />
                                     </div>
 
-                                    <div className="card-body">
+                                    <div className="lg:px-5 mt-5">
+                                        <h2 className=" card-title">National admission</h2>
+
+                                        <div className='flex mt-[15px]  pb-[30px] items-center justify-between'>
+                                            <a href='https://github.com/mahbubaly/College_admission' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-[24px] h-[24px]' />
+                                            </a>
+                                            <a href='https://github.com/mahbubaly/admission-server' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-[24px] h-[24px]' /></a>
+                                            <a href='https://college-admission.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-[24px] h-[24px]'></FaLink></a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                            <div className='text-white   scroll-container rounded-[8px] border-2 p-[4px]'>
+                                <div className="card  lg:w-auto w-[270px] mx-auto">
+                                    <div className='overflow-scroll  content scroll-smooth h-60  rounded-lg'  >
+                                        <img className=' ' src={img1} alt="summer-training!" />
+                                    </div>
+
+                                    <div className="lg:px-5 mt-5">
                                         <h2 className="my-2 card-title">Summer-camp</h2>
 
-                                        <div className='flex items-center justify-between'>
-                                            <a href='https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-mahbubaly' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-8 h-8' />
+                                        <div className='flex mt-[15px]  pb-[30px]  items-center justify-between'>
+                                            <a href='https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-mahbubaly' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-[24px] h-[24px]' />
                                             </a>
-                                            <a href='https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-mahbubaly' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-8 h-8' /></a>
-                                            <a href='https://summer-camp-d0cd9.web.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-8 h-8'></FaLink></a>
+                                            <a href='https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-mahbubaly' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-[24px] h-[24px]' /></a>
+                                            <a href='https://summer-camp-d0cd9.web.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-[24px] h-[24px]'></FaLink></a>
                                         </div>
-                                        <div className="card-actions justify-end">
-                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_5.showModal()}>Explore more</button>
-                                        </div>
+
                                     </div>
                                 </div>
 
-                                <dialog id="my_modal_5" className="modal">
-                                    <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">This is Popular Chefs And Foods web site.
-                                            This is a single page web site
-                                            Use this Site you can Choose Chef And Food.
-                                            You see the many Chefs and every single Chef details .
-                                            You can see the Chefs Recipes , Chefs Like , Chefs Experience and Number Of Recipes.
-                                            You Also Create your Account And then Login this site .</p>
 
-                                        <div className="modal-action">
-                                            {/* if there is a button, it will close the modal */}
-                                            <button className="btn">Close</button>
-                                        </div>
-                                    </form>
-                                </dialog>
                             </div>
 
-                            <div className='text-white scroll-container  border-2 p-3'>
-                                <div
 
-                                    className="card lg:w-full w-80 ">
-                                    <div className='overflow-scroll content h-60  rounded-lg'  ><img className='object-contain h-fit  ' src={img8} alt="summer-training!" /></div>
 
-                                    <div className="card-body">
-                                        <h2 className="my-2 card-title">Bistro-boss</h2>
 
-                                        <div className='flex items-center justify-between'>
-                                            <a href='https://github.com/mahbubaly/bistro-boss-res' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Client Site Code">Client <FaGithub className='w-8 h-8' />
-                                            </a>
-                                            <a href='' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Server Site Code">Server <FaGithub className='w-8 h-8' /></a>
-                                            <a href='https://lucky-biscotti-f144d5.netlify.app' target='_blank' className='flex items-center gap-2 tooltip' data-tip="Live Site">Live <FaLink className='w-8 h-8'></FaLink></a>
-                                        </div>
-                                        <div className="card-actions justify-end">
-                                            <button className="btn btn-outline hover:bg-white text-white hover:border-none hover:text-black mt-2" onClick={() => window.my_modal_6.showModal()}>Explore more</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <dialog id="my_modal_6" className="modal">
-                                    <form method="dialog" className="modal-box bg-black text-white w-11/12 max-w-5xl">
-                                        <h3 className="font-bold text-lg">Hello!</h3>
-                                        <p className="py-4">This is Popular Chefs And Foods web site.
-                                            This is a single page web site
-                                            Use this Site you can Choose Chef And Food.
-                                            You see the many Chefs and every single Chef details .
-                                            You can see the Chefs Recipes , Chefs Like , Chefs Experience and Number Of Recipes.
-                                            You Also Create your Account And then Login this site .</p>
 
-                                        <div className="modal-action">
-                                            {/* if there is a button, it will close the modal */}
-                                            <button className="btn">Close</button>
-                                        </div>
-                                    </form>
-                                </dialog>
-                            </div>
+
+
+
 
 
 
@@ -180,7 +139,7 @@ const Projects = () => {
                             <Link to="/ViewAllProjects" className=' mx-auto flex justify-center my-8 ' >
                                 <button className='hover:underline btn btn-outline border-0 border-b-4 border-yellow-600 text-white hover:bg-yellow-600 hover:border-yellow-600'>Go View All <BsArrowRight className='w-6 h-6 ' />
                                 </button>
-                                
+
                             </Link>
                         </div>
 

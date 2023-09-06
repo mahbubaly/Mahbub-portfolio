@@ -4,9 +4,7 @@ import { Outlet } from 'react-router-dom';
 import '../../Pages/Style.css';
 import Footer from '../../Shared/Footer';
 import { loadFull } from 'tsparticles';
-import ParticlesBg from '../../Particals/ParticlesBg';
-import Particles from "react-tsparticles";
-import { PuffLoader} from 'react-spinners';
+
 
 
 
@@ -47,43 +45,15 @@ const Main = () => {
     return (
         <>
 
-            {
-                loading ?
-                    <>
-                        <div className='flex justify-center items-center h-[800px] '>
-                            <div>
-
-                                <PuffLoader
-
-
-                                    
-                                    color={color}
-                                    loading={loading}
-
-
-
-
-                                />
-                                <h1 className='text-[#32A18F] text-xl'>Loading.......</h1>
-                            </div>
-                        </div>
-
-                    </>
-
-                    : <>
-                        <div className='full-back'>
-                            <Navbar />
-                            <Outlet />
-                            <Footer />
-                            <ParticlesBg />
-                        </div>
-
-                    </>
-            }
-
-
+            <div className='full-back contain'>
+                <Navbar />
+                <Outlet />
+                <Footer />
+            
+            </div>
 
         </>
+
     );
 };
 

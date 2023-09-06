@@ -14,7 +14,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qie4of8', 'template_go6z5r9', form.current, '-IZ0vYiwrNrv3dpz5')
+        emailjs.sendForm('service_qie4of8', 'template_h93kb2f', form.current, '-IZ0vYiwrNrv3dpz5')
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
@@ -73,7 +73,7 @@ const Contact = () => {
 
                         data-aos-delay="50" >
 
-                        <div className="wrapper flex flex-col p-5 md:p-10">
+                        <div className="wrapper flex flex-col  md:p-10">
                             <form className="w-full text-white" ref={form} onSubmit={sendEmail} >
                                 <input required type="text" name='user_name' className="input text-black font-semibold " placeholder="Enter your name here" />
                                 <input required type="email" name='user_email' className="input my-5 text-black font-semibold" placeholder="Enter your email here" />
