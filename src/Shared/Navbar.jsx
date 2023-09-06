@@ -124,7 +124,7 @@ const Navbar = () => {
 
                             {/* Mobile */}
 
-                            <div className={`block lg:hidden   lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-[600px] lg:h-auto duration-500 full-back   lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-full  p-5" : "w-0"}`}>
+                            <div className={`block lg:hidden   lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500 full-back   lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-full  p-5" : "w-0"}`}>
 
                                 <div className='flex  justify-between'>
                                     <ul className='flex  mx-auto font-bold flex-col  '>
