@@ -1,11 +1,18 @@
 body {
-  background-image: linear-gradient(90deg, #020024 0%, #696969 100%);
-  font-family: 'Roboto', sans-serif;
+
+  font-family: 'Roboto';
+}
+
+.navBack {
+  background-image: url(../assets/Images/Bg_Cover/redLight.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .full-back {
-  background-image: linear-gradient(90deg, #020024 0%, #444141 100%);
-  background-position: fixed;
+  background-image: url(../../src/assets//Images//Bg_Cover/redContact.jpg);
+ 
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -35,7 +42,7 @@ body {
 
 
 .wrapper {
-  border: 2px solid rgb(149, 0, 255);
+  border: 2px solid #EAA31C;
 }
 
 .containerSkill {
@@ -67,8 +74,32 @@ body {
 /*  */
 
 
-.container {
-  width: 100%;
+
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+
+
+
+  }
+
+}
+
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+
+  }
+
+}
+
+@media (min-width: 425px) {
+  .container {
+    max-width: 425px;
+
+  }
+
 }
 
 @media (min-width: 640px) {
@@ -85,15 +116,40 @@ body {
 
 @media (min-width: 1024px) {
   .container {
-    max-width: 1024px;
+    max-width: 1280px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+
+
+
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+
   }
 }
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-right: 135px;
+    padding-left: 135px;
+
+
+  }
+
+}
+
 
 @media (min-width: 1536px) {
   .container {

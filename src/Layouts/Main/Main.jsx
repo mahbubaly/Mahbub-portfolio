@@ -45,11 +45,11 @@ const Main = () => {
     return (
         <>
 
-            <div className='full-back contain'>
+            <div className=''>
                 <Navbar />
                 <Outlet />
                 <Footer />
-            
+
             </div>
 
         </>
