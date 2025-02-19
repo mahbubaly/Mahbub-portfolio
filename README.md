@@ -39,7 +39,7 @@ This project is built using **React.js, Tailwind CSS, and React Router** for sea
 ## 🔗 **Get in Touch**  
 Interested in working together? Feel free to reach out!  
 
-📩 **Email:** mahbubalikhanofficial@gmail  
+📩 **Email:** mahbubalikhanofficial@gmail.com  
 🌐 **Website:** https://mahbubaly-portfolio.netlify.app/  
 📱 **LinkedIn:** https://www.linkedin.com/in/md-mahbubur-rahman-mahbub-2a3a7b248/  
 
